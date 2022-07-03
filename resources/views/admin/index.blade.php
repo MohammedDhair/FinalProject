@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row" style="margin-top:50px;">
+            <div class="col-md-4" style="text-align: center;">
+                <a href="{{route('user.index')}}" class="btn btn-success" >User</a>
+            </div>
+            <div class="col-md-4" style="text-align: center;">
+                <a href="{{route('article.index')}}" class="btn btn-success">Articles</a>
+            </div>
+            <div class="col-md-4" style="text-align: center;">
+                <a href="{{route('project.index')}}" class="btn btn-success">Projects</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
